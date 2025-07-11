@@ -171,12 +171,23 @@ main{
 .reviewers-info{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     align-items: center;
     
 }
+.reviewer-name , .date{
+    
+    margin: 2px;
+    font-size: 14px;
+    
+}
+
 .reviewer-name{
-    margin-top: 5px;
+     color: rgb(95, 95, 95);
+}
+
+.date{
+   color: rgb(155, 156, 157);
 }
 
 .avatar{
@@ -191,3 +202,72 @@ main{
     border-radius: 14px;
 
 }
+
+.reviews-description{
+    font-size: 14px;
+
+}
+
+/* Ready to focus better */
+
+.focus{
+    text-align: center;
+    align-items: center;
+    background-color: rgba(238, 235, 235, 0.875);
+    margin-top: 137px;
+    gap: 20px;
+    border-radius: 14px;
+}
+
+.better-focus{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.focus-road p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(91, 92, 92);
+    padding: 0%;
+    
+
+
+
+}
+
+.focus-btn{
+    width: 195px;
+    height: 48px;
+    background-color: #4E47FF;
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.wc{
+    border-radius: 48px;
+    padding-bottom:20px ;
+}
+
+
+/* form section */
+.form-container{
+    display: flex;
+    margin-top: 94px;
+    justify-content: space-around;
+    gap: 115px;
+
+}
+
+.form-title{
+    font-size: 97px;
+    font-weight: 900;
+}
+
+* input [type="email"] [type="text"] textarea{
+        height: 70px;
+        display: block;
+        
+} 
