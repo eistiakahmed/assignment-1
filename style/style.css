@@ -258,6 +258,8 @@ main{
     margin-top: 94px;
     justify-content: space-around;
     gap: 115px;
+    margin-right: 10px;
+    align-items: center;
 
 }
 
@@ -266,8 +268,63 @@ main{
     font-weight: 900;
 }
 
-* input [type="email"] [type="text"] textarea{
-        height: 70px;
-        display: block;
-        
+
+.form-column input[type="email"]{
+      height: 40px;
+      width: 497px;
+      display: block;
+      gap: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid rgba(214, 221, 237, 1);
+      color: white;
+      margin-bottom: 20px;
+}
+
+.form-column input[type="text"]{
+     height: 40px;
+      width: 497px;
+      display: block;
+      gap: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid rgba(214, 221, 237, 1);
+      color: white;
+      margin-bottom: 20px;
 } 
+
+.form-column input,textarea{
+      height: 135px;
+      width: 497px;
+      display: block;
+      gap: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid rgba(214, 221, 237, 1);
+      color: white; 
+      margin-bottom: 20px;
+}
+
+.form-button{
+    width: 100%;
+    height: 62px;
+    border-radius: 10px;
+    padding: 5px;
+    display: block;
+    gap: 10px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+}
+
+
+label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+
+
+ 
