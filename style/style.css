@@ -324,7 +324,40 @@ label {
   margin-bottom: 10px;
   font-weight: 400;
 }
+     /* footer-section-start */
+     
+.footer-section{
+  background-color: rgb(249, 249, 249);
+  text-align: center;
+  padding: 104px 455px;
+  margin-top: 20px;
+}
 
+.logo{
+  color: #4E47FF;
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
 
+.description {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+}
 
  
